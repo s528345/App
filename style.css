@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+aside{
+    text-align: center;
+}
+#tip{
+    text-align: center;
+    border: 2px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    float: center;
+    width: 32%;
+    font-size: large;
+}
+#total{
+    text-align: center;
+    border: 2px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    float: center;
+    width: 30%;
+    font-size: large;
+}
+button.button{
+    color: blue; 
+    border: 2px grey solid;
+    border-radius: 35px;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    float: center;
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+    border: 2px black solid;
+}
+
+#tip:hover{
+    border: 2px black solid;
+}
+#total:hover{
+    border: 2px black solid;
+}
+#answer{
+    color: blue; 
+    font-size: large;
+}
