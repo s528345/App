@@ -6,7 +6,7 @@ function calculate() {
 
     const total = parseFloat(document.getElementById("total").value);
     const tip = parseFloat(document.getElementById("tip").value);
-    const result = total + (total*0.055) + tip;
+    const result = (total + (total*0.055) + tip) + 0.00;
     const result2 = parseFloat(result.toFixed(2)); 
     if(isNaN(result2)){
         document.getElementById("answer").style.color = "red";
