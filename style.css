@@ -12,17 +12,26 @@ aside{
     text-align: center;
 }
 #tip1{
-    float: center;
+    float: left;
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 330px;
 }
 
 #total1{
-    float: center;
+    float: left;
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 330px;
 }
-
+#tax{
+    float: left;
+    font-size: 25px;
+    margin-left: 330px;
+}
+#GT{
+    float: left;
+    font-size: 25px;
+    margin-left: 330px;
+}
 button.button{
     color: blue; 
     border: 2px grey solid;
@@ -31,6 +40,7 @@ button.button{
     padding: 15px;
     font-size: 35px;
     float: center;
+    margin-left: 340px;
     width: 50%;
 }
 
@@ -50,7 +60,17 @@ button:hover {
     color: blue; 
     font-size: large;
 }
-input.input{
+input.input1{
+    text-align: center;
+    border: 2px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 340px;
+    float: right;
+    width: 35%;
+    font-size: large;
+}
+input.input2{
     text-align: center;
     border: 2px grey solid;
     border-radius: 20px;
