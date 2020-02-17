@@ -11,26 +11,18 @@ p{
 aside{
     text-align: center;
 }
-#tip{
-    text-align: center;
-    border: 2px grey solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin: auto;
+#tip1{
     float: center;
-    width: 32%;
-    font-size: large;
+    font-size: 25px;
+    margin-left: 30px;
 }
-#total{
-    text-align: center;
-    border: 2px grey solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin: auto;
+
+#total1{
     float: center;
-    width: 30%;
-    font-size: large;
+    font-size: 25px;
+    margin-left: 30px;
 }
+
 button.button{
     color: blue; 
     border: 2px grey solid;
@@ -56,5 +48,15 @@ button:hover {
 }
 #answer{
     color: blue; 
+    font-size: large;
+}
+input.input{
+    text-align: center;
+    border: 2px grey solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 340px;
+    float: right;
+    width: 20%;
     font-size: large;
 }
